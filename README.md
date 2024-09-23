@@ -2,7 +2,7 @@
 
 This repository contains the firmware for a smart laptop cooling system that dynamically controls the speed of multiple fans based on temperature readings from  sensors connected to each fan. The system allows for different parts of the laptop to be cooled at different levels to optimize cooling performance and reduce excessive noise. The system is built using an ESP32 microcontroller and includes various features such as adjustable fan speed curves for each fan, manual fan speed control, and an OLED display for displaying fan information and configuring fan settings.
 
-![Laptop Cooler System](main/Stand and Board.png)
+![Laptop Cooler System](Stand and Board.jpg)
 ## Features
 
 - **Custom I2C Driver**: Includes a custom software I2C driver written in C, which enables communication with an ADS1115 ADC module and an OLED display. Achieves reliable clock speeds up to 1MHz for fast, responsive communication.
