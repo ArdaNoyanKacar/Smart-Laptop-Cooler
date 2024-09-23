@@ -1,6 +1,6 @@
 # Smart Laptop Cooler Firmware
 
-This repository contains the firmware for a smart laptop cooling system that dynamically controls the speed of multiple fans based on temperature readings from connected sensors. The system is built using an ESP32 microcontroller and includes various features such as adjustable fan speed curves, manual fan speed control, and an OLED display for displaying fan information and configuring fan settings.
+This repository contains the firmware for a smart laptop cooling system that dynamically controls the speed of multiple fans based on temperature readings from  sensors connected to each fan. The system allows for different parts of the laptop to be cooled at different levels to optimize cooling performance and reduce excessive noise. The system is built using an ESP32 microcontroller and includes various features such as adjustable fan speed curves for each fan, manual fan speed control, and an OLED display for displaying fan information and configuring fan settings.
 
 ## Features
 
