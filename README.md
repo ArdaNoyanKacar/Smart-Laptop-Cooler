@@ -17,7 +17,7 @@ This repository contains the firmware for a smart laptop cooling system that dyn
 - **Fans**: 4 fans controlled via PWM, with real-time feedback and adjustment.
 - **Temperature Sensors**: Connected to the ADS1115 ADC module to monitor the cooling system's environment.
 - **N-channel MOSFETs**: Used for driving the fans with an external 5V or 12V power source
-- **ADS1115 ADC**: Reads analog values from temperature sensors, used for increased accuracy
+- **ADS1115 ADC**: Reads analog values from temperature sensors and allows for more precise temperature reading 
 - **OLED Display**: Provides a graphical interface to display fan settings and statuses.
 - **Buttons & Potentiometer**: Used to navigate the menu system and adjust fan configurations.
 - **External Pull-up Resistors**: 10k pull-up resistors for the I2C communication lines (SDA and SCL).
